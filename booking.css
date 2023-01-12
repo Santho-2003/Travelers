@@ -1,0 +1,140 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  cursor:pointer;
+}
+body{
+  height:100vh;
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background:linear-gradient(to right,rgb(100, 95, 201),rgba(194,192,230,1));
+}
+nav{
+  background-color: #101820ff;
+  
+  
+}
+#logo{
+  color: aliceblue;
+  font-size: 40px;
+  
+}
+#logo:hover{
+  color: rgb(250, 115, 12);
+  transition-duration: 0.3s;
+}
+#li-a{
+  color:aliceblue;
+  text-align: center;
+  font-size: 18px;
+}
+#li{
+  width: 130px;
+}
+#li:hover{
+  background-color: #fee715ff;
+  color:#101820ff;
+  transition-duration: 0.3s;
+  border-radius: 40px;
+}
+#li:hover #li-a{
+  color:#101820ff;
+}
+.navbar-toggler {
+  border-color: rgb(250, 245, 248);
+} 
+form{
+  width: 550px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background: #101820ff;
+  box-shadow: 0 8px 32px  0 rgba(31,38,135,.37);
+  border-radius: 30px;
+  border-left: 1px solid rgba(255,255,255,.3);
+  border-top: 1px solid rgba(255,255,255,.3);
+  margin-top: 690px;
+
+}
+
+  
+form:hover{
+  box-shadow: 0 8px 32px  0 rgb(235, 197, 11);
+}
+
+h1{
+  margin-top: 20px;
+  font-size: 40px;
+  text-align: center;
+  color:rgb(250, 115, 12);
+  text-shadow:2px 2px 4px rgba(0,0,0,.2);
+  letter-spacing: 3px;
+  margin-bottom: 5%;
+  opacity:0.7;
+  
+}
+h1:hover{
+    color:rgb(250, 115, 12);
+}
+label{
+  font-size: 20px;
+  color:white;
+  margin-left: 10px;
+  opacity:0.8;
+ text-shadow:2px 2px 4px rgba(0,0,0,.2);
+}
+
+input{
+  width:80%;
+  margin:5% auto;
+  margin-bottom: 8%;
+  border:none;
+  outline:none;
+  background:transparent;
+  color:white;
+  border-bottom: 1px solid rgba(255,255,255,0.6);
+  opacity:0.8;
+}
+#button{
+  width:50%;
+  margin:3% auto;
+  color:white;
+  font-size:15px;
+  opacity:0.7;
+  background: rgba(255,255,255,0.06);
+  padding:10px 30px;
+  border:none;
+  outline:none;
+  border-radius: 20px;
+  text-shadow: 2px 2px 4px rgba(255,255,255,0.2);
+  box-shadow: 3px 3px 5px rgba(134, 138, 187, 0.37);
+  border-left: 1px solid rgba(255,255,255,.3);
+  border-top: 1px solid rgba(255,255,255,.3);
+  transition:width 0.4s;
+}
+#button:hover{
+  width:48%;
+  background: rgb(154, 135, 41);
+  color: black;
+  font-size:15px;
+}
+a{
+  font-size: 12px;
+  text-align: center;
+  color:white;
+  opacity:0.8;
+}
+#err{
+  margin-top: 4px;
+  color: rgb(234, 33, 11);
+  text-align: center;
+  font-size: 17px;
+  background-color: rgb(158, 160, 162);
+}
+
