@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device,initial-scale=1.0">
+        <meta name="description" content="tourism details">
+        <meta name="keywords" content="tour,tourism,travel and tourism">
+        <meta name="robots" content="INDEX,FOLLOW">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="login.css">
+        <script defer src="login.js"></script>
+        
+      
+    </head>
+    <body>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark py-4" id>
+            <div class="container-fluid">
+              <div class="navbar-brand">
+                <img src="./images/destination.png" alt="logo" width="70px" height="40px">
+              </div>
+              <a class="navbar-brand" id="logo" href="#">Traveller's choice</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav navbar-nav ms-auto" >
+                  <li class="nav-item" id="li" >
+                    <a class="nav-link" id="li-a" href="index.html">HOME</a>
+                  </li>
+                  <li class="nav-item" id="li" >
+                    <a class="nav-link" id="li-a" href="destination.html">DESTINATIONS</a>
+                  </li>
+                  
+                  <li class="nav-item" id="li" >
+                    <a class="nav-link" id="li-a" >ABOUT US</a>
+                  </li>
+                  <li class="nav-item" id="li-current" >
+                    <a class="nav-link" id="li-a-current" href="login.html">LOGIN</a>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+         
+          <form id="form" action="index.html"> 
+            <h1>Login</h1>
+            <label for="name">Username</label>
+            <input id="name" name="name" type="text" required>
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password" required>
+            
+            <button type="submit">Login</button>
+            <p> New user?<a id="signup" href="signup.html"> Sign up</a></p>
+           
+            <a> Forget Password?</a>
+            <p id="err">
+
+            </p>
+        </form>
+        
+           
+       
+    </body>
+</html>
